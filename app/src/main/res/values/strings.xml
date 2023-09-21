@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Actividad_2_Permisos</string>
+    <string name="tvcamera">Permiso de Camara</string>
+    <string name="tvcalls">Permiso de Microfono</string>
+    <string name="tvmicrophone">Permiso de Llamadas</string>
+    <string name="btncheck">Verificar Permisos</string>
+    <string name="btnrequest">Solicitar permisos</string>
+</resources>

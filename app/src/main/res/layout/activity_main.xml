@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvcamera"
+        android:textSize="24dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvMicrophone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvmicrophone"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/tvCalls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvcalls"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btncheckpermissions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btncheck" />
+
+    <Button
+        android:id="@+id/btnequestpermissions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnrequest" />
+
+</LinearLayout>
